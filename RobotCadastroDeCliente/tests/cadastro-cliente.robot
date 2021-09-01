@@ -14,6 +14,7 @@ Fazer o cadastro de um novo cliente
     Input Text    id=cep    13178860
     Click Element    xpath=//button[text()='Pesquisar']
     Wait Until Keyword Succeeds  10s  200ms  Aguardar o valor "Rua José Rodrigues da Cunha Filho" no elemento "id=rua" estar presente
+    Input Text    id=numero    100
     Select From List By Value    id=estado-civil  Casado(a)
     Click Element    xpath=//span[contains(text(),'Testes Automatizados')]/preceding::input[1]
     Click Element    xpath=//span[contains(text(),'Desenvolvimento de Software')]/preceding::input[1]
